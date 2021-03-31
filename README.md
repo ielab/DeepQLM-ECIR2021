@@ -1,7 +1,7 @@
 # DeepQLM-ECIR2021
 ## Github repo for ECIR2021 short paper: "Deep Query Likelihood Model for Information Retrieval"
 
-We reply on Huggingface [transformers](https://huggingface.co/transformers/) library and [docTquery-T5](https://github.com/castorini/docTTTTTquery) to implement T5 deep query likelihood model.
+We rely on Huggingface [transformers](https://huggingface.co/transformers/) library and [docTquery-T5](https://github.com/castorini/docTTTTTquery) to implement T5 deep query likelihood model.
 
 1. Download MS MARCO passage collection from https://github.com/microsoft/MSMARCO-Passage-Ranking, unzip and put `collection.tsv` in `data/`.
 2. Download `t5-base.zip` from https://github.com/castorini/docTTTTTquery, unzip and rename the folder to `t5-base-tf`.
